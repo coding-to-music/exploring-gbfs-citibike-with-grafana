@@ -6,6 +6,16 @@ https://github.com/coding-to-music/exploring-gbfs-citibike-with-grafana
 
 From / By
 
+See also:
+
+https://github.com/coding-to-music/mongodb-iot-reference-citibike-cron-jobs
+
+https://github.com/coding-to-music/mongodb-iot-reference-citibike-cron-jobs/blob/main/mongodb-timeseries/README.md
+
+Citi Bike publishes real-time system data in GBFS General Bikeshare Feed Specification format. https://github.com/NABSA/gbfs/blob/master/gbfs.md
+
+Get the GBFS feed here: http://gbfs.citibikenyc.com/gbfs/gbfs.json
+
 Example of a Grafana dashboard, using data from Prometheus:
 
 ![Grafana screenshot](https://github.com/coding-to-music/exploring-gbfs-citibike-with-grafana/blob/main/images/example-dashboard.png?raw=true)
@@ -120,6 +130,16 @@ https://ride.citibikenyc.com/system-data/operating-reports
 
 - The City of New York's bicycling data http://www.nyc.gov/html/dot/html/about/datafeeds.shtml#Bikes
 - A group of software developers and data explorers working with data feeds from NYC's Bike Share system and other bike data maintain this Google Group (note: Citi Bike is not responsible for this group – it is run and maintained by a group of interested private citizens) https://groups.google.com/forum/#!aboutgroup/citibike-hackers
+
+## Community articles and helpful info
+
+By Clif Kranish https://medium.com/@ckranish
+
+Explorer of data and bicycle routes. Leader in agile product management for data access and data preparation.
+
+https://towardsdatascience.com/estimating-bike-availability-from-nyc-bike-share-data-7cfc4655d5f6
+
+https://towardsdatascience.com/interpolating-nyc-bike-share-data-to-discover-rebalancing-movements-6cf8a80eb902
 
 ## feed of feed topics from gbfs citibikenyc
 
