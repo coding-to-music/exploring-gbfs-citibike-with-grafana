@@ -58,6 +58,69 @@ git remote add origin git@github.com:coding-to-music/exploring-gbfs-citibike-wit
 git push -u origin main
 ```
 
+## System Data
+
+Where do Citi Bikers ride? When do they ride? How far do they go? Which stations are most popular? What days of the week are most rides taken on? We've heard all of these questions and more from you, and we're happy to provide the data to help you discover the answers to these questions and more. We invite developers, engineers, statisticians, artists, academics and other interested members of the public to use the data we provide for analysis, development, visualization and whatever else moves you.
+
+This data is provided according to the Citi Bike Data Use Policy.
+
+## Citi Bike Trip Histories
+
+We publish downloadable files of Citi Bike trip data. https://s3.amazonaws.com/tripdata/index.html
+
+The data includes:
+
+- Ride ID
+- Rideable type
+- Started at
+- Ended at
+- Start station name
+- Start station ID
+- End station name
+- End station ID
+- Start latitude
+- Start longitude
+- End latitude
+- End Longitude
+- Member or casual ride
+
+Data format previously:
+
+- Trip Duration (seconds)
+- Start Time and Date
+- Stop Time and Date
+- Start Station Name
+- End Station Name
+- Station ID
+- Station Lat/Long
+- Bike ID
+- User Type (Customer = 24-hour pass or 3-day pass user; Subscriber = Annual Member)
+- Gender (Zero=unknown; 1=male; 2=female)
+- Year of Birth
+
+This data has been processed to remove trips that are taken by staff as they service and inspect the system, trips that are taken to/from any of our “test” stations (which we were using more in June and July 2013), and any trips that were below 60 seconds in length (potentially false starts or users trying to re-dock a bike to ensure it's secure).
+
+Please be aware of your software program’s row limitations as you are viewing the data. Many of the CSV files contain more than 1 million rows. After downloading, you will need to use a large data tool / visualizer (like Tableau, Alteryx, R, or others) to view and analyze the full data sets.
+
+Download Citi Bike trip history data: https://s3.amazonaws.com/tripdata/index.html
+
+## Real-Time Data
+
+Citi Bike publishes real-time system data in General Bikeshare Feed Specification format. https://github.com/NABSA/gbfs/blob/master/gbfs.md
+
+Get the GBFS feed here: http://gbfs.citibikenyc.com/gbfs/gbfs.json
+
+## Monthly Operating Reports
+
+View the monthly operating reports that we provide to the NYC Department of Transportation.
+
+https://ride.citibikenyc.com/system-data/operating-reports
+
+## Additional Resources
+
+- The City of New York's bicycling data http://www.nyc.gov/html/dot/html/about/datafeeds.shtml#Bikes
+- A group of software developers and data explorers working with data feeds from NYC's Bike Share system and other bike data maintain this Google Group (note: Citi Bike is not responsible for this group – it is run and maintained by a group of interested private citizens) https://groups.google.com/forum/#!aboutgroup/citibike-hackers
+
 ## feed of feed topics from gbfs citibikenyc
 
 http://gbfs.citibikenyc.com/gbfs/gbfs.json
@@ -110,7 +173,10 @@ http://gbfs.citibikenyc.com/gbfs/gbfs.json
 ## system_information
 
 ```
-https://gbfs.citibikenyc.com/gbfs/en/system_information.json
+{
+  "name": "station_information",
+  "url": "https://gbfs.citibikenyc.com/gbfs/en/system_information.json"
+},
 ```
 
 ```json
