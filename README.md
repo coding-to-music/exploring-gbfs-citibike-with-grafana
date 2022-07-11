@@ -1,6 +1,6 @@
 # exploring-gbfs-citibike-with-grafana
 
-# 🚀 Visualizing metrics from the Node JS application with Prometheus and Grafana 🚀
+# 🚀 Visualizing metrics from the GBFS feed from citibikenyc with Grafana 🚀
 
 https://github.com/coding-to-music/exploring-gbfs-citibike-with-grafana
 
