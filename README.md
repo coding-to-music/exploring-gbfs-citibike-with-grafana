@@ -6,6 +6,10 @@ https://github.com/coding-to-music/exploring-gbfs-citibike-with-grafana
 
 From / By
 
+Example of a Grafana dashboard, using data from Prometheus:
+
+![Grafana screenshot](https://github.com/coding-to-music/exploring-gbfs-citibike-with-grafana/blob/main/images/example-dashboard.png?raw=true)
+
 ## Another good Grafana info source:
 
 Grafana Dashboard with JSON APIs. visualize JSON, CSV, Graphql, XML in grafana
