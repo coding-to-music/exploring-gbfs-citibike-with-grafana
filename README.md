@@ -4,6 +4,8 @@
 
 https://github.com/coding-to-music/exploring-gbfs-citibike-with-grafana
 
+To use this, view the Grafana dashboard - Citibike - Station Information
+
 From / By
 
 See also:
